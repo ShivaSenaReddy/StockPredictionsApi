@@ -1,0 +1,9 @@
+https://polygon-api-worker.jssrcloudfareworkers.workers.dev/?ticker=aapl&startDate=2025-05-30&endDate=2025-06-06
+
+
+T
+https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2025-05-30/2025-06-06?adjusted=true&sort=asc&limit=120&apiKey=0IDWKzvMvU7dYoNCHeo7IffUIljfM7ly
+
+
+
+const PolygonURL=`https://api.polygon.io/v2/aggs/ticker/${ticker}/range/1/day/${startDate}/${endDate}?adjusted=true&sort=asc`
